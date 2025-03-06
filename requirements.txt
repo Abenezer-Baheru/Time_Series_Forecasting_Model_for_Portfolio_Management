@@ -1,4 +1,11 @@
 pandas 
 numpy 
 matplotlib 
-scikit-learn 
+seaborn
+yfinance 
+scikit-learn
+statsmodels 
+plotly
+mplfinance
+tensorflow
+pmdarima
