@@ -10,9 +10,8 @@ This project involves the exploration, analysis, and forecasting of financial da
 Time_Series_Forecasting_Model_for_Portfolio_Management/
 ├── notebooks/
 │   ├── EDA_and_Preprocessing.ipynb
-│   ├── Model_Forecasting.ipynb
-│   ├── Portfolio_Optimization.ipynb
-│   ├── __init__.py
+│   ├── model.ipynb
+│   ├── optimize.ipynb
 ├── data/
 │   ├── financial_data.csv
 ├── .gitignore
@@ -76,7 +75,7 @@ pip install -r requirements.txt
 
 ### **Develop Time Series Forecasting Models**
 
-1. Use `Model_Forecasting.ipynb` to develop and evaluate ARIMA, SARIMA, and LSTM models.
+1. Use `model.ipynb` to develop and evaluate ARIMA, SARIMA, and LSTM models.
 2. Run the notebook for step-by-step guidance on model development and evaluation.
 
 ### **Forecast Future Market Trends**
@@ -84,12 +83,12 @@ pip install -r requirements.txt
 1. Leverage trained models to forecast future prices for TSLA, BND, and SPY.
 2. Use these forecasts to guide portfolio optimization decisions:
    ```bash
-   jupyter notebook notebooks/Model_Forecasting.ipynb
+   jupyter notebook notebooks/model.ipynb
    ```
 
 ### **Optimize Portfolio Based on Forecast**
 
-1. Use `Portfolio_Optimization.ipynb` to compute annual returns, covariance matrices, and optimized portfolio weights.
+1. Use `optimize.ipynb` to compute annual returns, covariance matrices, and optimized portfolio weights.
 2. Analyze the results, including metrics like Sharpe Ratio and Value at Risk (VaR), through this notebook.
 
 ---
@@ -137,4 +136,3 @@ Guide Me in Finance (GMF) Investments specializes in personalized, data-driven p
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
